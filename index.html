@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>SmartProcess</title>
+    <title>SmartProcess - Home</title>
 </head>
 <body>
     <section class="nav">
@@ -14,14 +14,20 @@
             <label for="check" class="checkbtn">
                 <i class="fa fa-bars"></i>
             </label>              
-            <span class="brand-header">  
-                XProcess.io
-            </span>
+            <a href="./index.html">
+                <span class="brand-header">  
+                    <span class="display-4">X</span>Process.io
+                </span>
+            </a>
             <ul class="nav-links">
-                <li class="nav-link side-brand"><span class="brand-header">XProcess.io</span></li>
+                <li class="nav-link side-brand"><a href="./index.html">
+                    <span class="brand-header-side">  
+                        <span class="display-4">X</span>Process.io
+                    </span>
+                </a></li>
                 <li class="nav-link active"> <i class="fa fa-home"></i> Home</li>
                 <li class="nav-link"> <i class="fa fa-file"></i> Documentation</li>
-                <li class="nav-link btn btn-shadow"> <i class="fa fa-sign-in"></i> SignIn</li>
+                <li class="nav-link btn btn-shadow"> <a href="./login.html"><i class="fa fa-sign-in"></i> SignIn</a> </li>
                 <li class="nav-link btn btn-shadow outline-btn"> <i class="fa fa-lock"></i> SignUp</li>
             </ul>
             
@@ -29,39 +35,14 @@
     </section>
     <section class="landing">
         <div class="container">
-            <div class="landing-text">
+            <div class="landing-img">
 
             </div>
-            <div class="auth-form-container">
-                <form action="#" class="auth-form" id="auth-form">
-                    <h2 class="display-2">Sign-in Form</h2>
-                    <div class="input-group">
-                        <input type="text" name="username" class="form-input" autocomplete="off" required minlength="3">
-                        <label for="username" class="input-label">
-                            <span class="label-content">Username/ StaffID</span>
-                        </label>
-                    </div>
-                    <div class="input-group">
-                        <input type="password" name="password" class="form-input" autocomplete="off" required minlength="8">
-                        <label for="password" class="input-label">
-                            <span class="label-content">Password</span>
-                        </label>
-                    </div>
-                    <div class="input-lead text-grey checkbox">
-                        <input type="checkbox" name="remember" id="remember" class="input-field">
-                        <label for="remember" class="remember">
-                            <span>Remember Me?</span>
-                        </label>
-                    </div>
-                    <p class="input-lead text-grey">Don't have an account? please contact Admin</p>
-                    <div class="btn-container">
-                        <button class="btn btn-primary btn-round btn-shadow right">
-                            <i class="fa fa-sign-in"></i> 
-                            SignIn
-                        </button>
-                        <span class="clear-right"></span>
-                    </div>
-                </form>
+            <div class="landing-text">
+                <p class="display-2">
+                    <span class="text-primary display-3">Customizable, Effective & Efficient System</span>
+                     for creating workflows to help optimize your operational structure <br> <br>
+                </p>
             </div>
         </div>
     </section>
